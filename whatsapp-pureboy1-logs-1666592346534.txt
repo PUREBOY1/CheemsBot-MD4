@@ -1,0 +1,10 @@
+2022-10-23T18:37:54.968661+00:00 app[worker.1]: 0|levanter  | Error: Expected response to be successful, got 403
+2022-10-23T18:37:54.968731+00:00 app[worker.1]: 0|levanter  |     at Request.handleFailure (/root/LyFE/node_modules/heroku-client/lib/request.js:255:11)
+2022-10-23T18:37:54.968797+00:00 app[worker.1]: 0|levanter  |     at /root/LyFE/node_modules/heroku-client/lib/request.js:148:16
+2022-10-23T18:37:54.968838+00:00 app[worker.1]: 0|levanter  |     at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+2022-10-23T18:37:54.968901+00:00 app[worker.1]: 0|levanter  |   statusCode: 403,
+2022-10-23T18:37:54.968958+00:00 app[worker.1]: 0|levanter  |   body: {
+2022-10-23T18:37:54.969035+00:00 app[worker.1]: 0|levanter  |     id: 'forbidden',
+2022-10-23T18:37:54.969114+00:00 app[worker.1]: 0|levanter  |     message: 'You do not have access to the app whatsapp-pureboy1.'
+2022-10-23T18:37:54.969215+00:00 app[worker.1]: 0|levanter  |   }
+2022-10-23T18:37:54.969293+00:00 app[worker.1]: 0|levanter  | }
